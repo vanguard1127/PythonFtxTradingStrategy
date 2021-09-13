@@ -403,22 +403,6 @@ def Place_Order(arg1: str, arg2: str, arg3: str, arg4: float, arg5: float, arg6:
 
 
 if __name__ == '__main__':
-    # api_key = "qAb5nx4b3YEOuKp04FTwKNK3MHDoLgoIOoeERALg"
-    # api_secret = "8snnuvYAZLBFom2KpcIQs2CsJEZlw9DdlEdt1eBk"
-    # subaccount = "Test1"
-    # order_trade_amount = 0.0052
-    # aggressive_reserve_price = 3468.7
-    # spread = 10.0
-    # order_time = 20
-    # post_only = True
-    # ticker_symbol = "ETH-PERP"
-    # best_bid = 3468.9
-    # best_ask = 3469.0
-    # inventory_cutoff = 0.02
-    # target_distance = 0.0259
-    # Place_Order(api_key, api_secret, subaccount, order_trade_amount, aggressive_reserve_price, spread,
-    #             order_time, post_only, ticker_symbol, best_bid, best_ask, inventory_cutoff, target_distance)
-
     print('Trading Terminal Has Been Started !!')
     ticker_array = ["ETH-PERP", "BTC-PERP", "UNI-PERP", "LINK-PERP", "MKR-PERP", "DOGE-PERP"]
     print('Please Enter Ticker Symbol')
@@ -531,7 +515,7 @@ if __name__ == '__main__':
 
     api_key = "xxxx"
     api_secret = "yyyyy"
-    subaccount = "Test1"
+    subaccount = "zzzz"
 
     last_vol = 0.0
     inventory_target = 0.0
