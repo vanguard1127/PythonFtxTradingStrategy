@@ -254,7 +254,7 @@ def Sigma(arg1: str, arg2: str, arg3: str, arg4: str, arg5: str, arg6: float) ->
 
 
 def getBollinger(symbol: str, resolution: str, timeperiod: str, nbdevdn:str, nbdevup: str) -> dict:
-    APIKEY = "c3r13u2ad3i98m4ier5g"
+    APIKEY = "xxxxx"
     to_unix_timestamp = str(int(datetime.datetime.now().timestamp()))
     from_unix_timestamp = str(int(datetime.datetime.now().timestamp() - 10000))
 
@@ -529,8 +529,8 @@ if __name__ == '__main__':
     print("Upperband: ", upperband)
     print("\n")
 
-    api_key = "qAb5nx4b3YEOuKp04FTwKNK3MHDoLgoIOoeERALg"
-    api_secret = "8snnuvYAZLBFom2KpcIQs2CsJEZlw9DdlEdt1eBk"
+    api_key = "xxxx"
+    api_secret = "yyyyy"
     subaccount = "Test1"
 
     last_vol = 0.0
